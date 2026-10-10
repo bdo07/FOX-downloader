@@ -13,6 +13,15 @@ const MAX_TITLE_LENGTH = 180;
 const REMOTE_FETCH_TIMEOUT_MS = parsePositiveInt(process.env.REMOTE_FETCH_TIMEOUT_MS, 15 * 1000);
 const YTDLP_TIMEOUT_MS = parsePositiveInt(process.env.YTDLP_TIMEOUT_MS, 120 * 1000);
 
+
+
+const YTDLP_PATH =
+  process.env.YTDLP_PATH ||
+  'C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\\yt-dlp.exe';
+
+
+
+
 if (!fs.existsSync(tmpDir)) {
   fs.mkdirSync(tmpDir, { recursive: true });
 }
