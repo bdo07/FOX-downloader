@@ -328,7 +328,7 @@ function contentTypeFromExtension(ext) {
 
 function runYtDlp(args) {
   return new Promise((resolve, reject) => {
-    const child = spawn('yt-dlp', args);
+    const child = spawn(YTDLP_PATH, args);
     let stdout = '';
     let stderr = '';
     let timedOut = false;
