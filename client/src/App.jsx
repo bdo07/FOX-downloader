@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, Github, Image as ImageIcon, MoonStar, Music2, RefreshCw, SunMedium } from 'lucide-react';
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-const GITHUB_URL = import.meta.env.VITE_GITHUB_URL || 'https://github.com/med6ba/FOX-downloader';
+const GITHUB_URL = import.meta.env.VITE_GITHUB_URL || ' https://github.com/bdo07/FOX-downloader';
+
 const LANGUAGE_STORAGE_KEY = 'ui-language';
 const THEME_STORAGE_KEY = 'ui-theme';
 
@@ -66,7 +67,7 @@ const I18N = {
 };
 
 const ARABIC_ERROR_MAP = {
-  'Plrease enter a valid YouTube link.': 'يرجى إدخال رابط يوتيوب صحيح.',
+  'Please enter a valid YouTube link.': 'يرجى إدخال رابط يوتيوب صحيح.',
   "We couldn't read this video's details. Please try another link.": 'تعذر قراءة تفاصيل هذا الفيديو. جرّب رابطاً آخر.',
   'No downloadable qualities were found for this video.': 'لا توجد جودات قابلة للتحميل لهذا الفيديو.',
   'This quality is not available. Please choose another one.': 'هذه الجودة غير متاحة. اختر جودة أخرى.',
