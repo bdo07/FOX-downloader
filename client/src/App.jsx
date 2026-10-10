@@ -66,7 +66,7 @@ const I18N = {
 };
 
 const ARABIC_ERROR_MAP = {
-  'Please enter a valid YouTube link.': 'يرجى إدخال رابط يوتيوب صحيح.',
+  'Plrease enter a valid YouTube link.': 'يرجى إدخال رابط يوتيوب صحيح.',
   "We couldn't read this video's details. Please try another link.": 'تعذر قراءة تفاصيل هذا الفيديو. جرّب رابطاً آخر.',
   'No downloadable qualities were found for this video.': 'لا توجد جودات قابلة للتحميل لهذا الفيديو.',
   'This quality is not available. Please choose another one.': 'هذه الجودة غير متاحة. اختر جودة أخرى.',
