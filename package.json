@@ -1,0 +1,10 @@
+{
+  "name": "FOX-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server/scripts/dev.js",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  }
+}
