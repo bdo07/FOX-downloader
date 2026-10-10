@@ -10,7 +10,12 @@ const YTDLP_TIMEOUT_MS = parsePositiveInt(
   120 * 1000
 );
 
-const YTDLP_PATH = process.env.YTDLP_PATH || 'yt-dlp';
+
+const YTDLP_PATH =
+  process.env.YTDLP_PATH ||
+  'C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\\yt-dlp.exe';
+
+
 
 router.post('/', async (req, res, next) => {
   try {
